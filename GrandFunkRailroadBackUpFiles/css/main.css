@@ -1,0 +1,154 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f8fd; /* Light blue-gray */
+}
+
+header {
+    background-color: #83072D; /* Red wine */
+    color: #fff; /* White text */
+    text-align: center;
+    padding: 1rem;
+}
+nav ul {list-style: none;}
+nav ul li {    margin-bottom: 10px;
+}
+nav ul li a {
+    color: #fff; /* White text */
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: black; /* Red wine on hover */
+    color: #fff; /* White text on hover */
+}
+
+nav ul li a:active {
+    background-color: #fff; /* White on click */
+    color: #83072D; /* Red wine on click */
+}
+main {
+    padding: 2rem;
+    background-color: #f7f3e9; /* Cream white */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    color: #333; /* Dark gray */
+    margin: 3rem; /* Add margin for spacing */
+}
+
+footer {
+    background-color: #f8f9fa; /* Light gray */
+    width: 100%;
+    bottom: 0;
+}
+
+/* Contact Us Page Styles */
+form {
+    padding: 100px;
+    margin: 20px 0;
+    width: 50%;
+}
+
+form fieldset {
+    padding: 100px;
+}
+
+label {
+    margin-top: 20px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+}
+
+/* For Tables in Contact Us page */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* W3.CSS Styles */
+/* Add your W3.CSS styles below */
+.w3-button {
+    background-color: #2364AA; /* Dark blue */
+    color: #ffffff; /* White */
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.w3-button:hover {
+    background-color: #13325c; /* Slightly darker blue */
+}
+
+.w3-teal {
+    color: #ffffff !important;
+    background-color: #2364AA !important; /* Dark blue */
+}
+
+.w3-input {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc; /* Light gray */
+}
+
+.w3-select {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc; /* Light gray */
+}
+
+.w3-table-all {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.w3-table-all th, .w3-table-all td {
+    border: 1px solid #ccc; /* Light gray */
+    padding: 0.5rem;
+}
+
+.w3-light-grey {
+    background-color: #f1f1f1; /* Light gray */
+}
+
+.w3-red {
+    background-color: #e53935 !important; /* Red, for contrast */
+    color: #ffffff !important; /* White */
+}
+
+.w3-blue {
+    background-color: #2196F3 !important; /* Blue */
+    color: #ffffff !important; /* White */
+}
+
+.w3-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
